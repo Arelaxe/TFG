@@ -1,10 +1,12 @@
-import aiinterface.AIInterface; 
+import aiinterface.AIInterface;  
 import java.util.Random;
 import struct.FrameData;
 import struct.GameData;
 import struct.Key;
 import aiinterface.CommandCenter;
 import enumerate.State;
+import java.io.FileWriter;
+import java.io.PrintWriter;
 
 public class IA implements AIInterface{
 	Key inputKey;
@@ -15,6 +17,8 @@ public class IA implements AIInterface{
 	boolean otherPlayer;
 	GA ga = new GA(this);
 	public int[] genotype;
+	FileWriter escribir = null;
+	PrintWriter pw = null;
 	
 	@Override
 	public void close() {
@@ -109,8 +113,30 @@ public class IA implements AIInterface{
 		System.out.println("Vida IA: " + frameData.getCharacter(playerNumber).getHp());
 		System.out.println("Vida Enemigo: " + frameData.getCharacter(otherPlayer).getHp());
 		System.out.println("Fitness: " + ga.population.get(ga.population.size()-1).fitness());
-		ga.produceNextGen(this);
+		if (frameData.getRound() != 3) {
+			ga.produceNextGen(this);
+		}
+		
 		genotype = ga.population.get(ga.population.size()-1).genotype;
+		
+		if (frameData.getRound()==3) {
+			ga.population.get(ga.population.size()-1).fitness();
+			try{
+				escribir = new FileWriter("poblacion.txt",false);
+				pw = new PrintWriter(escribir);
+				pw.println(ga.toString());
+			}catch (Exception ex2){
+				System.out.println("Fallo de fichero\n");
+			}finally{
+				try{
+					if (null!=escribir)
+						escribir.close();
+						pw.close();
+				} catch (Exception e2){
+					e2.printStackTrace();
+				}
+			}
+		}
 	}
 	
 	public String getCharacter(){

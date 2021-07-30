@@ -1,7 +1,8 @@
-import java.util.Collections;
-import java.util.LinkedList;
+import java.util.LinkedList; 
 import java.util.Random;
-import struct.FrameData;
+import java.io.File;
+import java.io.FileReader;
+import java.io.BufferedReader;
 /**
  * @author Kunuk Nykjaer
  * Improvements: simplifications, comments - Antonio Mora
@@ -30,9 +31,48 @@ public class GA {
  
     // Constructor: It creates the initial population
     public GA(IA ia) {
-    	Individual c = new Individual(ia);
-    	c.random();
-    	population.add(c);
+    	File archivo = null;
+		FileReader fr = null;
+		BufferedReader br = null;
+
+		try{
+			archivo = new File ("poblacion.txt");
+			if (!archivo.exists()) {
+				Individual c = new Individual(ia);
+		    	c.random();
+		    	population.add(c);
+			}
+			else {
+				fr = new FileReader(archivo);
+				br = new BufferedReader(fr);
+				String linea;
+				while((linea=br.readLine())!=null){
+					if (!linea.equals("")) {
+						String[] datos = linea.split(" ");
+						Individual c = new Individual(ia);
+						c.genotype[0] = Integer.parseInt(datos[0]);
+						c.genotype[1] = Integer.parseInt(datos[1]);
+						c.genotype[2] = Integer.parseInt(datos[2]);
+						c.genotype[3] = Integer.parseInt(datos[3]);
+						c.fitness = Integer.parseInt(datos[4]);
+						
+						population.add(c);
+					}
+				}
+			}
+			
+		} catch (Exception ex){
+			ex.printStackTrace();
+		} finally{
+			try {
+				if (null != fr){
+					fr.close();
+					br.close();
+				}
+			} catch (Exception ex2){
+				System.out.println("Fallo de fichero\n");
+			}
+		}
     	print();
     }
  
@@ -43,6 +83,15 @@ public class GA {
             System.out.println(c.genotype[0] + " " +  c.genotype[1] + " " + c.genotype[2] + " " + c.genotype[3] + " " + c.fitness);
         }
     }
+    
+    @Override
+    public String toString() {
+    	String cadena = "";
+    	for (Individual c : population) {
+            cadena += c.genotype[0] + " " +  c.genotype[1] + " " + c.genotype[2] + " " + c.genotype[3] + " " + c.fitness + "\n";
+        }
+    	return cadena;
+    }
  
     /**
      * This method generates the new population applying the genetic operators:
@@ -51,9 +100,7 @@ public class GA {
      *   - Replacement strategy: Steady-State (10%) + Elitism
      */
     void produceNextGen(IA ia) {
-        LinkedList<Individual> newpopulation = new LinkedList<Individual>();
- 
-        if (population.size() < 2) {
+        if (population.size() < 10) {
         	Individual c = new Individual(ia);
         	c.random();
         	population.add(c);
@@ -64,24 +111,16 @@ public class GA {
             // *******************************
         		
         		int size = population.size();
-                int i = rand.nextInt(size);
-                int j;
+                
                 Individual child;
                 Individual w1, w2;
-                
-                j = i;
-                
-                while (j == i)
-                    j = rand.nextInt(size);
-                
-                w1 = population.get(i);
-                w2 = population.get(j);
-                
-                if (size > 3) {
-                	int k, l;
+                	int i = rand.nextInt(size);
+                    int j, k, l;
                 	
-                	k = l = i;
+                	k = l = j = i;
                 	
+                	while (j == i)
+                        j = rand.nextInt(size);
                 	while (k == i || k == j)
                         k = rand.nextInt(size);
                     while (l == i || l == j || k == l)
@@ -108,8 +147,6 @@ public class GA {
                         w2 = c3;
                     else
                         w2 = c4;
-                    
-                }
                 
                 // *******************************
                 // ********** CROSSOVER **********
@@ -181,38 +218,5 @@ public class GA {
         int i = rand.nextInt(Individual.SIZE);
         c.genotype[i] = rand.nextInt(500); // flip
     }
- 
-    /*
-    // PROCESS OF THE GENETIC ALGORITHM
-    void run() {
-      //  int count = 0;
- 
-      //  while (count < NUM_GENERATIONS) {
-            produceNextGen();
-          //  count++;
-       // }
- 
-        System.out.println("\nResult");
-        print();
-    }*/
-    
-    
-    // ################################################################
-    // ##########    Genetic Algorithm for ONEMAX PROBLEM    ##########
-    // ################################################################
-    /*
-    public static void main(String[] args) {
-        
-        // InitIndividuall time
-        long BEGIN = System.currentTimeMillis();
- 
-        // RUN the Genetic Algorithm
-        GA ga = new GA();
-        ga.run();
- 
-        // Final time
-        long END = System.currentTimeMillis();
-        System.out.println("Time: " + (END - BEGIN) / 1000.0 + " sec.");
-    }*/
  
 }

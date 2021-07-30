@@ -1,5 +1,4 @@
 import java.util.Random;
-import struct.FrameData;
 
 public class Individual implements Comparable<Individual>{
 	public int[] genotype;
@@ -21,7 +20,7 @@ public class Individual implements Comparable<Individual>{
 	}
 	
 	int fitness() {
-		if (ia.frameData.getEmptyFlag()) fitness = 0;
+		if (ia.frameData == null || ia.frameData.getCharacter(ia.playerNumber) == null) fitness = 0;
 		else fitness = ia.frameData.getCharacter(ia.playerNumber).getHp() - ia.frameData.getCharacter(ia.otherPlayer).getHp();
 		return fitness;
 	}
