@@ -1,0 +1,84 @@
+GENERACIÓN 0
+Mejor fitness: -614.44446
+Media fitness: -801.8944
+GENERACIÓN 1
+Mejor fitness: -614.44446
+Media fitness: -763.43335
+GENERACIÓN 2
+Mejor fitness: -614.44446
+Media fitness: -743.9667
+GENERACIÓN 3
+Mejor fitness: -532.44446
+Media fitness: -696.98895
+GENERACIÓN 4
+Mejor fitness: -532.44446
+Media fitness: -696.98895
+GENERACIÓN 5
+Mejor fitness: -532.44446
+Media fitness: -696.98895
+GENERACIÓN 6
+Mejor fitness: -532.44446
+Media fitness: -696.47784
+GENERACIÓN 7
+Mejor fitness: -532.44446
+Media fitness: -693.0223
+GENERACIÓN 8
+Mejor fitness: -532.44446
+Media fitness: -693.0223
+GENERACIÓN 9
+Mejor fitness: -532.44446
+Media fitness: -693.0223
+GENERACIÓN 10
+Mejor fitness: -532.44446
+Media fitness: -684.0111
+GENERACIÓN 11
+Mejor fitness: -532.44446
+Media fitness: -649.6444
+GENERACIÓN 12
+Mejor fitness: -532.44446
+Media fitness: -635.1
+GENERACIÓN 13
+Mejor fitness: -532.44446
+Media fitness: -633.4555
+GENERACIÓN 14
+Mejor fitness: -532.44446
+Media fitness: -633.4555
+GENERACIÓN 15
+Mejor fitness: -501.55554
+Media fitness: -611.8444
+GENERACIÓN 16
+Mejor fitness: -501.55554
+Media fitness: -610.7555
+GENERACIÓN 17
+Mejor fitness: -501.55554
+Media fitness: -601.6333
+GENERACIÓN 18
+Mejor fitness: -501.55554
+Media fitness: -601.6333
+GENERACIÓN 19
+Mejor fitness: -501.55554
+Media fitness: -601.6333
+GENERACIÓN 20
+Mejor fitness: -501.55554
+Media fitness: -601.6333
+GENERACIÓN 21
+Mejor fitness: -501.55554
+Media fitness: -592.0333
+GENERACIÓN 22
+Mejor fitness: -501.55554
+Media fitness: -592.0333
+GENERACIÓN 23
+Mejor fitness: -501.55554
+Media fitness: -592.0333
+GENERACIÓN 24
+Mejor fitness: -501.55554
+Media fitness: -592.0333
+GENERACIÓN 25
+Mejor fitness: -501.55554
+Media fitness: -583.589
+GENERACIÓN 26
+Mejor fitness: -501.55554
+Media fitness: -583.589
+GENERACIÓN 27
+Mejor fitness: -501.55554
+Media fitness: -583.589

@@ -6,7 +6,7 @@ import struct.Key;
 import aiinterface.CommandCenter;
 import enumerate.State;
 
-public class IA implements AIInterface {
+public class IA3 implements AIInterface {
 	Key inputKey;
 	Random rnd;
 	FrameData frameData;

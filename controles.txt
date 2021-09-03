@@ -1,3 +1,0 @@
--> + -> DASH
-<- + <- BACK_STEP
-<- STAND_GUARD

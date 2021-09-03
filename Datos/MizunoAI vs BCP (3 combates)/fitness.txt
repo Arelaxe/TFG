@@ -1,0 +1,132 @@
+GENERACIÓN 0
+Mejor fitness: -105.0
+Media fitness: -398.9
+GENERACIÓN 1
+Mejor fitness: -105.0
+Media fitness: -327.99997
+GENERACIÓN 2
+Mejor fitness: -105.0
+Media fitness: -294.73334
+GENERACIÓN 3
+Mejor fitness: -105.0
+Media fitness: -269.9
+GENERACIÓN 4
+Mejor fitness: -105.0
+Media fitness: -208.26665
+GENERACIÓN 5
+Mejor fitness: -105.0
+Media fitness: -159.2
+GENERACIÓN 6
+Mejor fitness: -105.0
+Media fitness: -159.2
+GENERACIÓN 7
+Mejor fitness: -57.0
+Media fitness: -140.2
+GENERACIÓN 8
+Mejor fitness: -39.666668
+Media fitness: -116.7
+GENERACIÓN 9
+Mejor fitness: -39.666668
+Media fitness: -116.7
+GENERACIÓN 10
+Mejor fitness: -39.666668
+Media fitness: -112.8
+GENERACIÓN 11
+Mejor fitness: -39.666668
+Media fitness: -106.23334
+GENERACIÓN 12
+Mejor fitness: -39.666668
+Media fitness: -106.23334
+GENERACIÓN 13
+Mejor fitness: -39.666668
+Media fitness: -105.53334
+GENERACIÓN 14
+Mejor fitness: -39.666668
+Media fitness: -105.53334
+GENERACIÓN 15
+Mejor fitness: -39.666668
+Media fitness: -99.200005
+GENERACIÓN 16
+Mejor fitness: -39.666668
+Media fitness: -99.200005
+GENERACIÓN 17
+Mejor fitness: -39.666668
+Media fitness: -91.200005
+GENERACIÓN 18
+Mejor fitness: -39.666668
+Media fitness: -88.0
+GENERACIÓN 19
+Mejor fitness: -39.666668
+Media fitness: -81.26666
+GENERACIÓN 20
+Mejor fitness: -25.333334
+Media fitness: -73.3
+GENERACIÓN 21
+Mejor fitness: -25.333334
+Media fitness: -69.2
+GENERACIÓN 22
+Mejor fitness: -25.333334
+Media fitness: -64.200005
+GENERACIÓN 23
+Mejor fitness: -25.333334
+Media fitness: -64.200005
+GENERACIÓN 24
+Mejor fitness: -25.333334
+Media fitness: -64.200005
+GENERACIÓN 25
+Mejor fitness: -25.333334
+Media fitness: -64.200005
+GENERACIÓN 26
+Mejor fitness: -25.333334
+Media fitness: -62.76667
+GENERACIÓN 27
+Mejor fitness: -25.333334
+Media fitness: -62.76667
+GENERACIÓN 28
+Mejor fitness: -25.333334
+Media fitness: -62.76667
+GENERACIÓN 29
+Mejor fitness: -25.333334
+Media fitness: -60.033333
+GENERACIÓN 30
+Mejor fitness: -25.333334
+Media fitness: -58.13333
+GENERACIÓN 31
+Mejor fitness: -25.333334
+Media fitness: -58.13333
+GENERACIÓN 32
+Mejor fitness: -25.333334
+Media fitness: -58.13333
+GENERACIÓN 33
+Mejor fitness: -25.333334
+Media fitness: -56.6
+GENERACIÓN 34
+Mejor fitness: -25.333334
+Media fitness: -56.6
+GENERACIÓN 35
+Mejor fitness: -25.333334
+Media fitness: -56.6
+GENERACIÓN 36
+Mejor fitness: -25.333334
+Media fitness: -56.6
+GENERACIÓN 37
+Mejor fitness: -25.333334
+Media fitness: -56.6
+GENERACIÓN 38
+Mejor fitness: -25.333334
+Media fitness: -56.6
+GENERACIÓN 39
+Mejor fitness: -25.333334
+Media fitness: -56.6
+GENERACIÓN 40
+Mejor fitness: -25.333334
+Media fitness: -56.6
+GENERACIÓN 41
+Mejor fitness: -25.333334
+Media fitness: -56.6
+GENERACIÓN 42
+Mejor fitness: -25.333334
+Media fitness: -56.6
+GENERACIÓN 43
+Mejor fitness: -25.333334
+Media fitness: -56.6

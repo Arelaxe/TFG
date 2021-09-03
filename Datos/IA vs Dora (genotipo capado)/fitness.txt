@@ -1,0 +1,132 @@
+GENERACIÓN 0
+Mejor fitness: -54.666668
+Media fitness: -627.43335
+GENERACIÓN 1
+Mejor fitness: -54.666668
+Media fitness: -427.13336
+GENERACIÓN 2
+Mejor fitness: -54.666668
+Media fitness: -277.73334
+GENERACIÓN 3
+Mejor fitness: -54.666668
+Media fitness: -213.66666
+GENERACIÓN 4
+Mejor fitness: -54.666668
+Media fitness: -132.06667
+GENERACIÓN 5
+Mejor fitness: -54.666668
+Media fitness: -132.06667
+GENERACIÓN 6
+Mejor fitness: 270.0
+Media fitness: -38.966667
+GENERACIÓN 7
+Mejor fitness: 270.0
+Media fitness: 10.26667
+GENERACIÓN 8
+Mejor fitness: 270.0
+Media fitness: 42.733326
+GENERACIÓN 9
+Mejor fitness: 270.0
+Media fitness: 75.2
+GENERACIÓN 10
+Mejor fitness: 270.0
+Media fitness: 140.13335
+GENERACIÓN 11
+Mejor fitness: 270.0
+Media fitness: 140.13335
+GENERACIÓN 12
+Mejor fitness: 270.0
+Media fitness: 205.06665
+GENERACIÓN 13
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 14
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 15
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 16
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 17
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 18
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 19
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 20
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 21
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 22
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 23
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 24
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 25
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 26
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 27
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 28
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 29
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 30
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 31
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 32
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 33
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 34
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 35
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 36
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 37
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 38
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 39
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 40
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 41
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 42
+Mejor fitness: 270.0
+Media fitness: 270.0
+GENERACIÓN 43
+Mejor fitness: 270.0
+Media fitness: 270.0
