@@ -1,0 +1,66 @@
+GENERACIÓN 0
+Mejor fitness: 385 353 173 410 654 
+Media fitness: -0.019697944
+GENERACIÓN 1
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 2
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 3
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 4
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 5
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 6
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 7
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 8
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 9
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 10
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 11
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 12
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 13
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 14
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 15
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 16
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 17
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 18
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 19
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 20
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4
+GENERACIÓN 21
+Mejor fitness: -0.019697946
+Media fitness: -9.848973E-4

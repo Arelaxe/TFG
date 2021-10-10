@@ -1,0 +1,126 @@
+GENERACIÓN 0
+Mejor fitness: 495 162 147 56 
+Media fitness: -1214.0
+GENERACIÓN 1
+Mejor fitness: 473 162 147 430 
+Media fitness: -202.33333
+GENERACIÓN 2
+Mejor fitness: 130 465 265 260 
+Media fitness: -202.33333
+GENERACIÓN 3
+Mejor fitness: 473 288 469 272 
+Media fitness: -202.33333
+GENERACIÓN 4
+Mejor fitness: 473 109 147 272 
+Media fitness: -202.33333
+GENERACIÓN 5
+Mejor fitness: 495 126 469 104 
+Media fitness: -202.33333
+GENERACIÓN 6
+Mejor fitness: 495 109 84 272 
+Media fitness: -202.33333
+GENERACIÓN 7
+Mejor fitness: 495 109 293 479 
+Media fitness: -202.33333
+GENERACIÓN 8
+Mejor fitness: 475 58 84 272 
+Media fitness: -202.33333
+GENERACIÓN 9
+Mejor fitness: 293 58 199 272 
+Media fitness: -202.33333
+GENERACIÓN 10
+Mejor fitness: 131 58 84 479 
+Media fitness: -202.33333
+GENERACIÓN 11
+Mejor fitness: 293 58 84 272 
+Media fitness: -202.33333
+GENERACIÓN 12
+Mejor fitness: 293 22 84 272 
+Media fitness: -202.33333
+GENERACIÓN 13
+Mejor fitness: 287 499 199 272 
+Media fitness: -202.33333
+GENERACIÓN 14
+Mejor fitness: 19 163 199 272 
+Media fitness: -202.33333
+GENERACIÓN 15
+Mejor fitness: 378 22 199 272 
+Media fitness: -202.33333
+GENERACIÓN 16
+Mejor fitness: 293 163 177 272 
+Media fitness: -202.33333
+GENERACIÓN 17
+Mejor fitness: 458 58 220 272 
+Media fitness: -202.33333
+GENERACIÓN 18
+Mejor fitness: 293 163 267 272 
+Media fitness: -202.33333
+GENERACIÓN 19
+Mejor fitness: 455 225 199 45 
+Media fitness: -202.33333
+GENERACIÓN 20
+Mejor fitness: 293 163 177 45 
+Media fitness: -202.33333
+GENERACIÓN 21
+Mejor fitness: 293 170 267 480 
+Media fitness: -202.33333
+GENERACIÓN 22
+Mejor fitness: 21 163 267 272 
+Media fitness: -202.33333
+GENERACIÓN 23
+Mejor fitness: 455 163 177 213 
+Media fitness: -202.33333
+GENERACIÓN 24
+Mejor fitness: 21 163 267 290 
+Media fitness: -202.33333
+GENERACIÓN 25
+Mejor fitness: 21 295 267 272 
+Media fitness: -202.33333
+GENERACIÓN 26
+Mejor fitness: 489 362 346 290 
+Media fitness: -202.33333
+GENERACIÓN 27
+Mejor fitness: 489 114 267 414 
+Media fitness: -202.33333
+GENERACIÓN 28
+Mejor fitness: 489 114 267 414 
+Media fitness: -202.33333
+GENERACIÓN 29
+Mejor fitness: 21 114 267 64 
+Media fitness: -202.33333
+GENERACIÓN 30
+Mejor fitness: 79 114 267 424 
+Media fitness: -202.33333
+GENERACIÓN 31
+Mejor fitness: 79 163 131 424 
+Media fitness: -202.33333
+GENERACIÓN 32
+Mejor fitness: 21 163 95 329 
+Media fitness: -202.33333
+GENERACIÓN 33
+Mejor fitness: 206 114 131 473 
+Media fitness: -202.33333
+GENERACIÓN 34
+Mejor fitness: 20 114 131 205 
+Media fitness: -202.33333
+GENERACIÓN 35
+Mejor fitness: 21 163 376 120 
+Media fitness: -202.33333
+GENERACIÓN 36
+Mejor fitness: 259 114 400 329 
+Media fitness: -202.33333
+GENERACIÓN 37
+Mejor fitness: 259 114 95 329 
+Media fitness: -202.33333
+GENERACIÓN 38
+Mejor fitness: 21 163 95 473 
+Media fitness: -202.33333
+GENERACIÓN 39
+Mejor fitness: 21 163 400 329 
+Media fitness: -202.33333
+GENERACIÓN 40
+Mejor fitness: 261 244 210 329 
+Media fitness: -202.33333
+GENERACIÓN 41
+Mejor fitness: 72 163 418 304 
+Media fitness: -202.33333
