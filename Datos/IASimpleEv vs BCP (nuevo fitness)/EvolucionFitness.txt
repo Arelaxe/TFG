@@ -1,5 +1,5 @@
 GENERACIÓN 0
-Mejor fitness: 385 353 173 410 654 
+Mejor fitness: -0.019697944
 Media fitness: -0.019697944
 GENERACIÓN 1
 Mejor fitness: -0.019697946

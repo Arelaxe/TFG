@@ -31,6 +31,8 @@ public class Individual implements Comparable<Individual> {
 		FileReader fr = null;
 		BufferedReader br = null;
 		int stageWidth = 0;
+		int maxEnergy = 0;
+		int maxHP = 0;
     	
     	try {
 			file = new File ("C:\\Users\\n-o-e\\OneDrive\\Escritorio\\IA'S\\LANZADOR\\GameData.txt");
@@ -38,10 +40,15 @@ public class Individual implements Comparable<Individual> {
 				fr = new FileReader(file);
 				br = new BufferedReader(fr);
 				String line = br.readLine();
-				stageWidth = Integer.parseInt(line);
+				String[] data = line.split(" ");
+				stageWidth = Integer.parseInt(data[0]);
+				maxEnergy = Integer.parseInt(data[1]);
+				maxHP = Integer.parseInt(data[2]);
 			} 
 			else {
 				stageWidth = 1000;
+				maxEnergy = 500;
+				maxHP = 500;
 			}
 		} catch (Exception ex){
 			ex.printStackTrace();
@@ -57,7 +64,14 @@ public class Individual implements Comparable<Individual> {
 		}
     	
         for (int i = 0; i < genotype.length; i++) {
-            genotype[i] = rand.nextInt(stageWidth);
+        	if (i == 0 || i == 1) {
+        		do {
+        			genotype[i] = rand.nextInt(stageWidth);
+        		} while (i == 1 && genotype[1] < genotype[0]);
+        	}
+        	else {
+        		genotype[i] = rand.nextInt(maxEnergy);
+        	}
         }
     }
  
@@ -127,13 +141,14 @@ public class Individual implements Comparable<Individual> {
 		return fitness;
     }
     
-    // Flip a gene
+	// Flip a gene
     void flip(int index){
     	File file = null;
 		FileReader fr = null;
 		BufferedReader br = null;
 		int stageWidth = 0;
-		int maxHealth = 0;
+		int maxEnergy = 0;
+		int maxHP = 0;
     	
     	try {
 			file = new File ("C:\\Users\\n-o-e\\OneDrive\\Escritorio\\IA'S\\LANZADOR\\GameData.txt");
@@ -142,7 +157,8 @@ public class Individual implements Comparable<Individual> {
 			String line = br.readLine();
 			String[] data = line.split(" ");
 			stageWidth = Integer.parseInt(data[0]);
-			maxHealth = Integer.parseInt(data[1]);
+			maxEnergy = Integer.parseInt(data[1]);
+			maxHP = Integer.parseInt(data[2]);
 		} catch (Exception ex){
 			ex.printStackTrace();
 		} finally{
@@ -156,7 +172,12 @@ public class Individual implements Comparable<Individual> {
 			}
 		}
     	
-        genotype[index] = rand.nextInt(stageWidth);
+    	if (index == 0 || index == 1) {
+    		genotype[index] = rand.nextInt(stageWidth);
+    	}
+    	else {
+    		genotype[index] = rand.nextInt(maxEnergy);
+    	}
     }
  
     // Comparison method (Overrided): Compares the fitness of the individuals

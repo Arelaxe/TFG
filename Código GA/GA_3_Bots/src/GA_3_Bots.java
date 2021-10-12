@@ -21,12 +21,12 @@ import java.util.Random;
 * 
 */
  
-public class GA {
+public class GA_3_Bots {
     
     static final int NUM_GENERATIONS = 30;
-    static final int SIZE_INDIVIDUAL = 7;
+    static final int SIZE_INDIVIDUAL = 8;
     static final int NUM_INDIVIDUALS = 10;
-    static final int NUM_COMBATS_INDIVIDUAL = 2;
+    static final int NUM_COMBATS_INDIVIDUAL = 3;
     static final int PARENT_USE_PERCENT = 10;  // To define the Steady-State approach
     static final double CROSSOVER_PROBABILITY = 1.00;  // For Steady-State is always performed
     static final double MUTATION_PROBABILITY = 0.5;
@@ -42,7 +42,7 @@ public class GA {
     LinkedList<Individual> population = new LinkedList<Individual>();
  
     // Constructor: It creates the initial population
-    public GA() {
+    public GA_3_Bots() {
     	// ************************************
         // ********** INITIALIZATION **********
         // ************************************
@@ -190,19 +190,44 @@ public class GA {
 		        }
 		     }
         	
-            for (int n = 0; n < NUM_COMBATS_INDIVIDUAL; n++) {
+            System.out.println("Voy a combatir contra BCP");
+            try {
+            	String cmd = "script_BCP.bat";
+		        Process p = Runtime.getRuntime().exec(cmd); 
 		        try {
-		            String cmd = "script.bat";
-		            Process p = Runtime.getRuntime().exec(cmd); 
-		            try {
-	            		p.waitFor();
-	            	} catch (InterruptedException e) {
-	                    System.out.println("Main thread is interrupted");
-	                }
-		        } catch (IOException ioe) {
-		           System.out.println (ioe);
-		        }
-            }
+            		p.waitFor();
+            	} catch (InterruptedException e) {
+                    System.out.println("Main thread is interrupted");
+                }
+		    } catch (IOException ioe) {
+		    	System.out.println (ioe);
+		    }
+            
+            System.out.println("Voy a combatir contra Dora");
+            try {
+            	String cmd = "script_Dora.bat";
+		        Process p = Runtime.getRuntime().exec(cmd); 
+		        try {
+            		p.waitFor();
+            	} catch (InterruptedException e) {
+                    System.out.println("Main thread is interrupted");
+                }
+		    } catch (IOException ioe) {
+		    	System.out.println (ioe);
+		    }
+            
+            System.out.println("Voy a combatir contra TOVOR");
+            try {
+            	String cmd = "script_TOVOR.bat";
+		        Process p = Runtime.getRuntime().exec(cmd); 
+		        try {
+            		p.waitFor();
+            	} catch (InterruptedException e) {
+                    System.out.println("Main thread is interrupted");
+                }
+		    } catch (IOException ioe) {
+		    	System.out.println (ioe);
+		    }
 	        	
 	        child1.fitness();
 	        
@@ -225,19 +250,44 @@ public class GA {
 		        }
 		     }
         	
-	        for (int n = 0; n < NUM_COMBATS_INDIVIDUAL; n++) {
+	        System.out.println("Voy a combatir contra BCP");
+            try {
+            	String cmd = "script_BCP.bat";
+		        Process p = Runtime.getRuntime().exec(cmd); 
 		        try {
-		            String cmd = "script.bat";
-		            Process p = Runtime.getRuntime().exec(cmd); 
-		            try {
-	            		p.waitFor();
-	            	} catch (InterruptedException e) {
-	                    System.out.println("Main thread is interrupted");
-	                }
-		        } catch (IOException ioe) {
-		           System.out.println (ioe);
-		        }
-	        }
+            		p.waitFor();
+            	} catch (InterruptedException e) {
+                    System.out.println("Main thread is interrupted");
+                }
+		    } catch (IOException ioe) {
+		    	System.out.println (ioe);
+		    }
+            
+            System.out.println("Voy a combatir contra Dora");
+            try {
+            	String cmd = "script_Dora.bat";
+		        Process p = Runtime.getRuntime().exec(cmd); 
+		        try {
+            		p.waitFor();
+            	} catch (InterruptedException e) {
+                    System.out.println("Main thread is interrupted");
+                }
+		    } catch (IOException ioe) {
+		    	System.out.println (ioe);
+		    }
+            
+            System.out.println("Voy a combatir contra TOVOR");
+            try {
+            	String cmd = "script_TOVOR.bat";
+		        Process p = Runtime.getRuntime().exec(cmd); 
+		        try {
+            		p.waitFor();
+            	} catch (InterruptedException e) {
+                    System.out.println("Main thread is interrupted");
+                }
+		    } catch (IOException ioe) {
+		    	System.out.println (ioe);
+		    }
 	        	
 	        child2.fitness();
 	        
@@ -306,19 +356,22 @@ public class GA {
     
     // Flip mutation: a random gene is selected and turned from '0' to '1' or viceversa
     void mutate(Individual c) {
-        int i = rand.nextInt(Individual.SIZE);
-        
         File file = null;
 		FileReader fr = null;
 		BufferedReader br = null;
 		int stageWidth = 0;
+		int maxEnergy = 0;
+		int maxHP = 0;
         
         try {
 			file = new File ("C:\\Users\\n-o-e\\OneDrive\\Escritorio\\IA'S\\LANZADOR\\GameData.txt");
 			fr = new FileReader(file);
 			br = new BufferedReader(fr);
 			String line = br.readLine();
-			stageWidth = Integer.parseInt(line);
+			String [] data = line.split(" ");
+			stageWidth = Integer.parseInt(data[0]);
+			maxEnergy = Integer.parseInt(data[1]);
+			maxHP = Integer.parseInt(data[2]);
 		} catch (Exception ex){
 			ex.printStackTrace();
 		} finally{
@@ -332,7 +385,14 @@ public class GA {
 			}
 		}
         
-        c.genotype[i] = rand.nextInt(stageWidth); // flip
+        int index = rand.nextInt(SIZE_INDIVIDUAL-1);
+        
+        if (index == 0 || index == 1) {
+        	c.genotype[index] = rand.nextInt(stageWidth);
+        }
+        else {
+        	c.genotype[index] = rand.nextInt(maxEnergy);
+        }
     }
  
  
@@ -349,7 +409,7 @@ public class GA {
             print();
             
             for (int i = 0; i < population.size(); i++){
-            	acumFitness = population.get(i).fitness;
+            	acumFitness += population.get(i).fitness;
             }
             
             try {
@@ -358,6 +418,24 @@ public class GA {
     	        pw.println("GENERACIÓN " + count);
     	        pw.println("Mejor fitness: " + population.get(0).fitness);
     	        pw.println("Media fitness: " + acumFitness/population.size());
+    	        pw.println("Peor fitness: " + population.get(population.size()-1).fitness);
+    	    } catch (Exception ex2){
+    	        System.out.println("Fallo de fichero\n");
+    	    }finally{
+    	    	try{
+    	    		if (null!=escribir)
+    	        		escribir.close();
+    	        		pw.close();
+    	        } catch (Exception e2){
+    	        		e2.printStackTrace();
+    	        }
+    	     }
+            
+            try {
+    	        escribir = new FileWriter("toPlot.dat",true);
+    	        pw = new PrintWriter(escribir);
+    	        pw.println(count + " " + population.get(0).fitness + " " + acumFitness/population.size() + " " 
+    	        			+ population.get(population.size()-1).fitness);
     	    } catch (Exception ex2){
     	        System.out.println("Fallo de fichero\n");
     	    }finally{
@@ -374,7 +452,14 @@ public class GA {
     	        escribir = new FileWriter("EvolucionGeneraciones.txt",true);
     	        pw = new PrintWriter(escribir);
     	        pw.println("GENERACIÓN " + count);
-    	        pw.print(population);
+    	        for (int i = 0; i < population.size(); i ++) {
+    	        	String s = "";
+    	        	for (int j = 0; j < SIZE_INDIVIDUAL; j++) {
+    	        		s += population.get(i).genotype[j] + " ";
+    	        	}
+    	        	s += population.get(i).fitness;
+    	        	pw.println(s);
+    	        }
     	        pw.println("");
     	        pw.println("-------------------------------------------------");
     	    } catch (Exception ex2){
@@ -408,7 +493,7 @@ public class GA {
         long BEGIN = System.currentTimeMillis();
  
         // RUN the Genetic Algorithm
-        GA ga = new GA();
+        GA_3_Bots ga = new GA_3_Bots();
         float acumFitness = 0;
         
         for (int i = 0; i < ga.population.size(); i++) {
@@ -430,19 +515,44 @@ public class GA {
 		        }
 		     }
         	
-	        for (int j = 0; j < NUM_COMBATS_INDIVIDUAL; j++) {
-	        	try {
-	            	String cmd = "script.bat";
-	            	Process p = Runtime.getRuntime().exec(cmd); 
-	            	try {
-	            		p.waitFor();
-	            	} catch (InterruptedException e) {
-	                    System.out.println("Main thread is interrupted");
-	                }
-	            } catch (IOException ioe) {
-	            	System.out.println (ioe);
-	            }
-	        }
+        	System.out.println("Voy a combatir contra BCP");
+            try {
+            	String cmd = "script_BCP.bat";
+		        Process p = Runtime.getRuntime().exec(cmd); 
+		        try {
+            		p.waitFor();
+            	} catch (InterruptedException e) {
+                    System.out.println("Main thread is interrupted");
+                }
+		    } catch (IOException ioe) {
+		    	System.out.println (ioe);
+		    }
+            
+            System.out.println("Voy a combatir contra Dora");
+            try {
+            	String cmd = "script_Dora.bat";
+		        Process p = Runtime.getRuntime().exec(cmd); 
+		        try {
+            		p.waitFor();
+            	} catch (InterruptedException e) {
+                    System.out.println("Main thread is interrupted");
+                }
+		    } catch (IOException ioe) {
+		    	System.out.println (ioe);
+		    }
+            
+            System.out.println("Voy a combatir contra TOVOR");
+            try {
+            	String cmd = "script_TOVOR.bat";
+		        Process p = Runtime.getRuntime().exec(cmd); 
+		        try {
+            		p.waitFor();
+            	} catch (InterruptedException e) {
+                    System.out.println("Main thread is interrupted");
+                }
+		    } catch (IOException ioe) {
+		    	System.out.println (ioe);
+		    }
 	        	
 	        c.fitness();
 	        acumFitness += c.fitness;
@@ -457,6 +567,24 @@ public class GA {
 	        pw.println("GENERACIÓN " + 0);
 	        pw.println("Mejor fitness: " + ga.population.get(0).fitness);
 	        pw.println("Media fitness: " + acumFitness/ga.population.size());
+	        pw.println("Peor fitness: " + ga.population.get(ga.population.size()-1).fitness);
+	    } catch (Exception ex2){
+	        System.out.println("Fallo de fichero\n");
+	    }finally{
+	    	try{
+	    		if (null!=escribir)
+	        		escribir.close();
+	        		pw.close();
+	        } catch (Exception e2){
+	        		e2.printStackTrace();
+	        }
+	     }
+        
+        try {
+	        escribir = new FileWriter("toPlot.dat",false);
+	        pw = new PrintWriter(escribir);
+	        pw.println(0 + " " + ga.population.get(0).fitness + " " + acumFitness/ga.population.size() 
+	        			+ " " + ga.population.get(ga.population.size()-1).fitness);
 	    } catch (Exception ex2){
 	        System.out.println("Fallo de fichero\n");
 	    }finally{
