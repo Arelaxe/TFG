@@ -1,0 +1,124 @@
+GENERACIÓN 0
+Mejor fitness: 0.03389508
+Media fitness: -0.010751325
+Peor fitness: -0.061347395
+GENERACIÓN 1
+Mejor fitness: 0.03389508
+Media fitness: 0.0036389604
+Peor fitness: -0.008157475
+GENERACIÓN 2
+Mejor fitness: 0.03389508
+Media fitness: -4.915062E-4
+Peor fitness: -0.057083037
+GENERACIÓN 3
+Mejor fitness: 0.03389508
+Media fitness: 0.0050468007
+Peor fitness: -0.027113967
+GENERACIÓN 4
+Mejor fitness: 0.03389508
+Media fitness: -0.010282347
+Peor fitness: -0.101950206
+GENERACIÓN 5
+Mejor fitness: 0.029471094
+Media fitness: 0.0051020137
+Peor fitness: -0.024224738
+GENERACIÓN 6
+Mejor fitness: 0.036895715
+Media fitness: 0.0012353221
+Peor fitness: -0.12607127
+GENERACIÓN 7
+Mejor fitness: 0.036895715
+Media fitness: 0.0146312425
+Peor fitness: -0.044352483
+GENERACIÓN 8
+Mejor fitness: 0.036895715
+Media fitness: 0.010668275
+Peor fitness: -0.018227344
+GENERACIÓN 9
+Mejor fitness: 0.036895715
+Media fitness: -3.7267525E-4
+Peor fitness: -0.05975726
+GENERACIÓN 10
+Mejor fitness: 0.036895715
+Media fitness: 0.0052631726
+Peor fitness: -0.06569987
+GENERACIÓN 11
+Mejor fitness: 0.036895715
+Media fitness: 0.011756984
+Peor fitness: -0.039139554
+GENERACIÓN 12
+Mejor fitness: 0.036895715
+Media fitness: 0.0053656064
+Peor fitness: -0.047962803
+GENERACIÓN 13
+Mejor fitness: 0.047128055
+Media fitness: 0.00662267
+Peor fitness: -0.057910204
+GENERACIÓN 14
+Mejor fitness: 0.047128055
+Media fitness: 0.011586855
+Peor fitness: -0.019342495
+GENERACIÓN 15
+Mejor fitness: 0.047128055
+Media fitness: 0.013507919
+Peor fitness: -0.05563205
+GENERACIÓN 16
+Mejor fitness: 0.05008316
+Media fitness: 0.008935006
+Peor fitness: -0.08628523
+GENERACIÓN 17
+Mejor fitness: 0.056852642
+Media fitness: 0.0031390907
+Peor fitness: -0.14807321
+GENERACIÓN 18
+Mejor fitness: 0.056852642
+Media fitness: 0.01704518
+Peor fitness: -0.020824088
+GENERACIÓN 19
+Mejor fitness: 0.056852642
+Media fitness: 0.016084412
+Peor fitness: -0.053852838
+GENERACIÓN 20
+Mejor fitness: 0.056852642
+Media fitness: 0.02358896
+Peor fitness: -0.023684338
+GENERACIÓN 21
+Mejor fitness: 0.056852642
+Media fitness: 0.023882248
+Peor fitness: -0.055935364
+GENERACIÓN 22
+Mejor fitness: 0.056852642
+Media fitness: 0.016943747
+Peor fitness: -0.050513234
+GENERACIÓN 23
+Mejor fitness: 0.056852642
+Media fitness: 0.014305571
+Peor fitness: -0.051363885
+GENERACIÓN 24
+Mejor fitness: 0.06223893
+Media fitness: 0.022560507
+Peor fitness: -0.05381392
+GENERACIÓN 25
+Mejor fitness: 0.06223893
+Media fitness: 0.019860676
+Peor fitness: -0.036734987
+GENERACIÓN 26
+Mejor fitness: 0.06223893
+Media fitness: 0.017091248
+Peor fitness: -0.03879482
+GENERACIÓN 27
+Mejor fitness: 0.06223893
+Media fitness: 0.019305678
+Peor fitness: -0.09804108
+GENERACIÓN 28
+Mejor fitness: 0.06223893
+Media fitness: 0.017602947
+Peor fitness: -0.05617331
+GENERACIÓN 29
+Mejor fitness: 0.06223893
+Media fitness: 0.006518066
+Peor fitness: -0.1623351
+GENERACIÓN 30
+Mejor fitness: 0.08415738
+Media fitness: 0.020926032
+Peor fitness: -0.09181768

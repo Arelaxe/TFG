@@ -1,0 +1,124 @@
+GENERACIÓN 0
+Mejor fitness: -0.017360533
+Media fitness: -0.2167454
+Peor fitness: -0.42524108
+GENERACIÓN 1
+Mejor fitness: -0.014373009
+Media fitness: -0.08215118
+Peor fitness: -0.16577777
+GENERACIÓN 2
+Mejor fitness: -0.014373009
+Media fitness: -0.03005426
+Peor fitness: -0.15707181
+GENERACIÓN 3
+Mejor fitness: -0.014373009
+Media fitness: -0.016023474
+Peor fitness: -0.017360533
+GENERACIÓN 4
+Mejor fitness: -0.014373009
+Media fitness: -0.014919928
+Peor fitness: -0.016743736
+GENERACIÓN 5
+Mejor fitness: -0.014373009
+Media fitness: -0.014538708
+Peor fitness: -0.016195701
+GENERACIÓN 6
+Mejor fitness: -0.014373009
+Media fitness: -0.014373008
+Peor fitness: -0.014373009
+GENERACIÓN 7
+Mejor fitness: -0.014373009
+Media fitness: -0.014373008
+Peor fitness: -0.014373009
+GENERACIÓN 8
+Mejor fitness: -0.013848457
+Media fitness: -0.014325322
+Peor fitness: -0.014373009
+GENERACIÓN 9
+Mejor fitness: -0.013848457
+Media fitness: -0.01422995
+Peor fitness: -0.014373009
+GENERACIÓN 10
+Mejor fitness: -0.013848457
+Media fitness: -0.014039203
+Peor fitness: -0.014373009
+GENERACIÓN 11
+Mejor fitness: -0.013848457
+Media fitness: -0.013896141
+Peor fitness: -0.014373009
+GENERACIÓN 12
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 13
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 14
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 15
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 16
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 17
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 18
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 19
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 20
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 21
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 22
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 23
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 24
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 25
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 26
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 27
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 28
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 29
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
+GENERACIÓN 30
+Mejor fitness: -0.013848457
+Media fitness: -0.013848455
+Peor fitness: -0.013848457
