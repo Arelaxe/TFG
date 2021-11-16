@@ -1,1 +1,0 @@
--n 10 --c1 ZEN --c2 ZEN --a1 IA --a2 Dora --disable-window --fastmode

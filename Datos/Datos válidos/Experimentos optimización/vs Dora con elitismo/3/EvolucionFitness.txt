@@ -1,0 +1,105 @@
+GENERACIÓN 0
+Mejor fitness (generación): -6353474.5
+Mejor fitness (total): -6353474.5
+Media fitness: -9548376.0
+Peor fitness: -1.2180996E7
+GENERACIÓN 1
+Mejor fitness (generación): -6353474.5
+Mejor fitness (total): -6353474.5
+Media fitness: -8839588.0
+Peor fitness: -1.0120413E7
+GENERACIÓN 2
+Mejor fitness (generación): -6353474.5
+Mejor fitness (total): -6353474.5
+Media fitness: -8214071.5
+Peor fitness: -9367568.0
+GENERACIÓN 3
+Mejor fitness (generación): -6353474.5
+Mejor fitness (total): -6353474.5
+Media fitness: -7766487.0
+Peor fitness: -8914841.0
+GENERACIÓN 4
+Mejor fitness (generación): -6353474.5
+Mejor fitness (total): -6353474.5
+Media fitness: -7725738.0
+Peor fitness: -8756967.0
+GENERACIÓN 5
+Mejor fitness (generación): -6353474.5
+Mejor fitness (total): -6353474.5
+Media fitness: -7671348.0
+Peor fitness: -8611896.0
+GENERACIÓN 6
+Mejor fitness (generación): -6353474.5
+Mejor fitness (total): -6353474.5
+Media fitness: -7598923.0
+Peor fitness: -8506668.0
+GENERACIÓN 7
+Mejor fitness (generación): -6353474.5
+Mejor fitness (total): -6353474.5
+Media fitness: -7494663.5
+Peor fitness: -8289478.5
+GENERACIÓN 8
+Mejor fitness (generación): -6353474.5
+Mejor fitness (total): -6353474.5
+Media fitness: -7307375.0
+Peor fitness: -7997464.5
+GENERACIÓN 9
+Mejor fitness (generación): -6353474.5
+Mejor fitness (total): -6353474.5
+Media fitness: -7120232.5
+Peor fitness: -7854586.0
+GENERACIÓN 10
+Mejor fitness (generación): -6353474.5
+Mejor fitness (total): -6353474.5
+Media fitness: -7026204.5
+Peor fitness: -7721697.5
+GENERACIÓN 11
+Mejor fitness (generación): -5696966.0
+Mejor fitness (total): -5696966.0
+Media fitness: -6730332.5
+Peor fitness: -7428488.0
+GENERACIÓN 12
+Mejor fitness (generación): -5696966.0
+Mejor fitness (total): -5696966.0
+Media fitness: -6730332.5
+Peor fitness: -7428488.0
+GENERACIÓN 13
+Mejor fitness (generación): -5696966.0
+Mejor fitness (total): -5696966.0
+Media fitness: -6730332.5
+Peor fitness: -7428488.0
+GENERACIÓN 14
+Mejor fitness (generación): -5696966.0
+Mejor fitness (total): -5696966.0
+Media fitness: -6654345.0
+Peor fitness: -7126549.5
+GENERACIÓN 15
+Mejor fitness (generación): -5696966.0
+Mejor fitness (total): -5696966.0
+Media fitness: -6654345.0
+Peor fitness: -7126549.5
+GENERACIÓN 16
+Mejor fitness (generación): -5113824.0
+Mejor fitness (total): -5113824.0
+Media fitness: -6492102.5
+Peor fitness: -7125605.5
+GENERACIÓN 17
+Mejor fitness (generación): -5113824.0
+Mejor fitness (total): -5113824.0
+Media fitness: -6431010.0
+Peor fitness: -7098500.0
+GENERACIÓN 18
+Mejor fitness (generación): -5113824.0
+Mejor fitness (total): -5113824.0
+Media fitness: -6418542.5
+Peor fitness: -7070272.5
+GENERACIÓN 19
+Mejor fitness (generación): -5113824.0
+Mejor fitness (total): -5113824.0
+Media fitness: -6403328.5
+Peor fitness: -6980545.5
+GENERACIÓN 20
+Mejor fitness (generación): -5113824.0
+Mejor fitness (total): -5113824.0
+Media fitness: -6403328.5
+Peor fitness: -6980545.5
